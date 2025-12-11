@@ -1,0 +1,7 @@
+unused_files/
+context/
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
