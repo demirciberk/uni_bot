@@ -9,7 +9,7 @@ This project uses a custom ETL pipeline to scrape, clean, and vectorise universi
 2.  **Ingest (`mass_ingest.py`)**: Downloads HTML & PDFs.
 3.  **Cleaner (`cleaner.py`)**: Fixes PDF line-breaks, merges split words, and removes navigation menus.
 4.  **Vector Store (`reset_brain.py`)**: Embeds text using `all-MiniLM-L6-v2` into ChromaDB.
-5.  **Agent (`rag.py`)**: Uses **Gemma 2 (2B)** via Ollama to answer student questions.
+5.  **Agent (`rag.py`)**: Uses **Gemma 3 (4B)** via Ollama to answer student questions.
 
 ## 🚀 How to Run
 
