@@ -20,7 +20,7 @@ if not sys.platform.startswith('win'):
         pass
 
 db = Chroma(persist_directory="./chroma_db", embedding_function=embedding_function)
-retriever = db.as_retriever(search_kwargs={"k": 20})
+retriever = db.as_retriever(search_kwargs={"k": 10})
 
 # --- 2. SETUP LLM ---
 print("Initializing Local LLM (Gemma 3 4B)...")
