@@ -1,4 +1,4 @@
-# TED University AI Agent 🎓
+# UniBot AI Agent 🎓
 
 A Local RAG (Retrieval-Augmented Generation) agent that answers questions about TED University regulations, courses, and internships.
 
